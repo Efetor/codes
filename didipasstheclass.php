@@ -28,7 +28,15 @@
 			background-color: lightgray;
 		}
 		#padding{
+			background-color: lightgray;
+			height: 100px;
 
+		}
+		.end{
+			font-size: 14px;
+			text-decoration: underline;
+			color: black;
+			text-align: center;
 		}
 
 
@@ -52,7 +60,7 @@ $func = 'calculate';
 calculate(50,50,50);
 $func(0,0,0);
 
-#Grades here!!
+#Grades here!
 #$gr1 for first and $gr2 for second exam.
 #$fn for final exam.
 
@@ -69,7 +77,8 @@ if ($func($gr1,$gr2,$fn)>50) : ?>
 <?php elseif ($func($gr1,$gr2,$fn)<50) :?>
 	<p class="avg2">Failed...</p>
 <?php endif; ?>
-
 </div>
+<p class="end">Grades are calculated over 100 points. It can go more than 100 and lower than 0. Use however you want.</p>
+
 </body>
 </html>
