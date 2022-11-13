@@ -41,7 +41,7 @@
 
 
 	</style>
-	<title>Did i pass the exam? (basic version)</title>
+	<title>Did i pass the class? (primitve version)</title>
 </head>
 <body>
 
