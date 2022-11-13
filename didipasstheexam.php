@@ -52,7 +52,7 @@ $func = 'calculate';
 calculate(50,50,50);
 $func(0,0,0);
 
-#Grades here!
+#Grades here!!
 #$gr1 for first and $gr2 for second exam.
 #$fn for final exam.
 
